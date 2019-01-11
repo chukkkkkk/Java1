@@ -2,10 +2,9 @@ package signInWindow;
 
 import javax.swing.*;
 import java.awt.*;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
 
-public class SigninWindow extends JFrame implements ActionListener {
+
+public class SigninWindow extends JFrame {
     private JLabel accountLabel;
     private JTextField accountBox;
     private JLabel passwordLabel;
@@ -50,15 +49,7 @@ public class SigninWindow extends JFrame implements ActionListener {
         jButton = new JButton("登陆");
         jButton.setBounds(150,200,100,50);
         contentPane.add(jButton);
-        jButton.addActionListener(this);
     }
-
-
-    @Override
-    public void actionPerformed(ActionEvent e) {
-
-    }
-
 
     public static void main(String[] args){
         SigninWindow signinWindow = new SigninWindow();
