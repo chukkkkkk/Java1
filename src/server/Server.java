@@ -59,7 +59,7 @@ public class Server extends JFrame implements ActionListener {
         textArea.setWrapStyleWord(true);//断行不断字
         textArea.setFont(new Font("微软雅黑",Font.ITALIC,16));
         scrollPane1.setBounds(0,50,500,350);
-        //scrollPane1.setVerticalScrollBarPolicy(JScrollPane.VERTICAL_SCROLLBAR_ALWAYS);//设置滚动条一直显示
+        //scrollPane1.setVerticalScrollBarPolicy(JScrollPane.VERTICAL_SCROLLBAR_ALWAYS);
         contentPane.add(scrollPane1);
 
         //工具栏
